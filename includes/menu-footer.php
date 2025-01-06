@@ -50,6 +50,7 @@
             this.menuIconBack.addEventListener('click', togleListening);
             this.exit.addEventListener('click',menuExit);
             this.mese_attuale.addEventListener('click', () => navigate('mese_attuale.php','mese_attuale'));
+            this.impostazioni.addEventListener('click', () => navigate('impostazioni.php','impostazioni'));
         }
     }
     menu.start();
