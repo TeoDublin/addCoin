@@ -12,14 +12,14 @@ function editClick(element,id){
 }
 function delClick(id){
     if(confirm('Sicuro di voler Eliminare?')){
-        $.post("post/delete.php",{table:'terapisti',id:id}).done(success_and_refresh).fail(fail);
+        $.post("post/delete.php",{table:'mensili',id:id}).done(success_and_refresh).fail(fail);
     }
 };
 function add(id){
-    let _data = { table:'terapisti', header:'terapisti' };
+    let _data = { table:'mensili', header:'Tutte' };
     if(id){_data["id"]=id;}
     modal_component('modal','modal',_data);
 }
 document.addEventListener('DOMContentLoaded',function(){
-    search_table({table:'terapisti'});
+    search_table({table:'mensili'});
 });

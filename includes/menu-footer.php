@@ -14,13 +14,8 @@
         menuLabel: document.querySelectorAll('.menu-label'),
         exit: document.querySelector('.menu-exit'),
         setup: document.querySelector('.menu-setup'),
-        users: document.querySelector('#users'),
+        mese_attuale: document.querySelector('#menu-mese_attuale'),
         impostazioni: document.querySelector('#menu-impostazioni'),
-        prenota: document.querySelector('#menu-prenota'),
-        clienti: document.querySelector('#menu-clienti'),
-        pagamenti: document.querySelector('#menu-pagamenti'),
-        trattamenti: document.querySelector('#menu-trattamenti'),
-        corsi: document.querySelector('#menu-corsi'),
         start: function(){
             if(getCookie("menu")=="show"){
                 this.menuVertical.classList.remove('hide');
@@ -54,12 +49,7 @@
             this.menuIcon.addEventListener('click', togleListening);
             this.menuIconBack.addEventListener('click', togleListening);
             this.exit.addEventListener('click',menuExit);
-            this.impostazioni.addEventListener('click', () => navigate('impostazioni.php','impostazioni'));
-            this.prenota.addEventListener('click', () => navigate('prenotazioni.php','prenotazioni'));
-            this.pagamenti.addEventListener('click', () => navigate('pagamenti.php','pagamenti'));
-            this.clienti.addEventListener('click', () => navigate('clienti.php','clienti'));
-            this.trattamenti.addEventListener('click', () => navigate('trattamenti.php','trattamenti'));
-            this.corsi.addEventListener('click', () => navigate('corsi.php','corsi'));
+            this.mese_attuale.addEventListener('click', () => navigate('mese_attuale.php','mese_attuale'));
         }
     }
     menu.start();

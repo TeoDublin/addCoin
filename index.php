@@ -1,3 +1,3 @@
 <?php 
 require 'includes.php';
-redirect('prenotazioni.php');
+redirect('mese_attuale.php');

@@ -7,9 +7,9 @@ class Sql {
         switch (environment()) {
             case 'dev':
                 $host='127.0.0.1';
-                $user='medplus';
+                $user='addCoin';
                 $pass='123testes'; 
-                $db='medplus';
+                $db='addCoin';
                 break;
             case 'prod':
                 $host='localhost';

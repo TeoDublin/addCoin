@@ -12,14 +12,14 @@ function editClick(element,id){
 }
 function delClick(id){
     if(confirm('Sicuro di voler Eliminare?')){
-        $.post("post/delete.php",{table:'motivi',id:id}).done(success_and_refresh).fail(fail);
+        $.post("post/delete.php",{table:'mensili',id:id}).done(success_and_refresh).fail(fail);
     }
 };
 function add(id){
-    let _data = { table:'motivi', header:'Motivi' };
+    let _data = { table:'mensili', header:'Pendenti' };
     if(id){_data["id"]=id;}
     modal_component('modal','modal',_data);
 }
 document.addEventListener('DOMContentLoaded',function(){
-    search_table({table:'motivi'});
+    search_table({table:'mensili'});
 });

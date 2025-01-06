@@ -41,41 +41,17 @@
     <div class="d-flex flex-fill">
         <div class="d-flex flex-fill flex-row">
             <div class="menu-vertical h-100 d-flex flex-column p-2 hide">
-                <div class="menu-option d-flex w-100 justify-content-start py-3 <?php echo cookie('menu_page','prenotazioni')=='prenotazioni'?'menu-active':''?>" id="menu-prenota" title="Prenotazioni">
+                <div class="menu-option d-flex w-100 justify-content-start py-3 <?php echo cookie('menu_page','mese_attuale')=='mese_attuale'?'menu-active':''?>" id="menu-mese_attuale" title="Mese attuale">
                     <div class="d-flex align-items-start mx-2" >
                         <?php echo icon('table.svg','black',31,30);?>
                     </div>
-                    <div class="menu-label align-self-center hide" ><span>Prenotazioni</span></div>
-                </div>
-                <div class="menu-option d-flex w-100 justify-content-start py-3 <?php echo cookie('menu_page','prenotazioni')=='pagamenti'?'menu-active':''?>" id="menu-pagamenti" title="pagamenti">
-                    <div class="d-flex align-items-start mx-2" >
-                        <?php echo icon('coin.svg','black',31,30);?>
-                    </div>
-                    <div class="menu-label align-self-center hide" ><span>Pagamenti</span></div>
+                    <div class="menu-label align-self-center hide" ><span>Mese Attuale</span></div>
                 </div>
                 <div class="menu-option d-flex w-100 justify-content-start py-3 <?php echo cookie('menu_page','prenotazioni')=='impostazioni'?'menu-active':''?>" id="menu-impostazioni" title="impostazioni">
                     <div class="d-flex align-items-start mx-2" >
                         <?php echo icon('gear.svg','black',31,30);?>
                     </div>
                     <div class="menu-label align-self-center hide" ><span>Impostazioni</span></div>
-                </div>
-                <div class="menu-option d-flex w-100 justify-content-start py-3 <?php echo cookie('menu_page','prenotazioni')=='clienti'?'menu-active':''?>" id="menu-clienti" title="clienti">
-                    <div class="d-flex align-items-start mx-2" >
-                        <?php echo icon('person-card.svg','black',31,30);?>
-                    </div>
-                    <div class="menu-label align-self-center hide" ><span>Clienti</span></div>
-                </div>
-                <div class="menu-option d-flex w-100 justify-content-start py-3 <?php echo cookie('menu_page','prenotazioni')=='trattamenti'?'menu-active':''?>" id="menu-trattamenti" title="trattamenti">
-                    <div class="d-flex align-items-start mx-2" >
-                        <?php echo icon('heart.svg','black',31,30);?>
-                    </div>
-                    <div class="menu-label align-self-center hide" ><span>Trattamenti</span></div>
-                </div>
-                <div class="menu-option d-flex w-100 justify-content-start py-3 <?php echo cookie('menu_page','prenotazioni')=='corsi'?'menu-active':''?>" id="menu-corsi" title="corsi">
-                    <div class="d-flex align-items-start mx-2" >
-                        <?php echo icon('people-arms.svg','black',31,30);?>
-                    </div>
-                    <div class="menu-label align-self-center hide" ><span>Corsi</span></div>
                 </div>
             </div>
             <div class="page-content flex-fill pb-2 pt-0 px-2">

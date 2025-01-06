@@ -7,4 +7,4 @@
     </div>
 </div>
 <div class="w-100 mx-1" id="search_table"></div>
-<?php script('pages/impostazioni/motivi/motivi.js'); ?>
+<?php script('pages/mese_attuale/tutte/tutte.js'); ?>
