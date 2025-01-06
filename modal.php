@@ -1,3 +1,3 @@
 <?php 
 require 'includes.php';
-redirect('prenotazioni.php');
+require $_POST['url'];
