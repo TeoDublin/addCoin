@@ -16,9 +16,9 @@ function delClick(id){
     }
 };
 function add(id){
-    let _data = { table:'view_mensili', header:'Tutte' };
+    let _data = { table:'mensili', header:'Tutte' };
     if(id){_data["id"]=id;}
-    modal_component('modal','modal',_data);
+    modal_component('modal','mensili',_data);
 }
 document.addEventListener('DOMContentLoaded',function(){
     search_table({table:'view_mensili'});
