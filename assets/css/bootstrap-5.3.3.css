@@ -9649,6 +9649,9 @@ z-index: 3 !important;
 }
 
 @media (min-width: 576px) {
+    .sm-w-100{
+        width: 100% !important;
+    }
     .float-sm-start {
     float: left !important;
     }
@@ -10210,6 +10213,9 @@ z-index: 3 !important;
     }
 }
 @media (min-width: 768px) {
+    .md-w-100{
+        width: 100% !important;
+    }
     .float-md-start {
     float: left !important;
     }
