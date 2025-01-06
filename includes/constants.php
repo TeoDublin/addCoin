@@ -1,2 +1,2 @@
 <?php
-    define('PROJECT_NAME','medplus');
+    define('PROJECT_NAME','addCoin');
