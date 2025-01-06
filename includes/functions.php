@@ -35,7 +35,7 @@
         return $rootUrl.root_path("{$path}");
     }
     function image(string $name): string {
-        return root_path("assets/images/{$name}");
+        return root_path("assets/images/{$name}?v=".filemtime("assets/images/{$name}"));
     }
     function icon(string $name,string $color='black',string $width='16',string $height='16'): string {
         $svg = file_get_contents(root("assets/icons/{$name}"));
