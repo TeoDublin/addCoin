@@ -1,5 +1,5 @@
 <div class="d-flex flex-row p-2">
-    <div class= "w-20 flex-sm-fill d-sm-flex" onclick="add(false);">
+    <div class= "xl-w-20 lg-w-20  xxl-w-20 flex-sm-fill d-sm-flex flex-md-fill d-md-flex" onclick="add(false);">
         <button type="button" class="btn btn-primary p-2 d-flex flex-row btn-insert w-100 h-100">
             <div class="mx-2"><?php echo icon('cloud-add.svg','white',20,20);?></div>
             <div>Aggiungi</div>
