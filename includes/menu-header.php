@@ -40,7 +40,7 @@
     </div>
     <div class="d-flex flex-fill">
         <div class="d-flex flex-fill flex-row">
-            <div class="menu-vertical sm-menu-vertical h-100 d-flex flex-column p-2 hide">
+            <div class="menu-vertical h-100 d-flex flex-column p-2 hide">
                 <div class="menu-option d-flex w-100 justify-content-start py-3 <?php echo cookie('menu_page','mese_attuale')=='mese_attuale'?'menu-active':''?>" id="menu-mese_attuale" title="Mese attuale">
                     <div class="d-flex align-items-start mx-2" >
                         <?php echo icon('table.svg','black',31,30);?>
