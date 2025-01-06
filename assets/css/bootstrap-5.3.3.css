@@ -9648,7 +9648,7 @@ z-index: 2 !important;
 z-index: 3 !important;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .sm-w-100{
         width: 100% !important;
     }
