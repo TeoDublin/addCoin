@@ -12,14 +12,14 @@ function editClick(element,id){
 }
 function delClick(id){
     if(confirm('Sicuro di voler Eliminare?')){
-        $.post("post/delete.php",{table:'view_mensili',id:id}).done(success_and_refresh).fail(fail);
+        $.post("post/delete.php",{table:'stipendio',id:id}).done(success_and_refresh).fail(fail);
     }
 };
 function add(id){
-    let _data = { table:'mensili', header:'Tutte' };
+    let _data = { table:'stipendio', header:'Stipendio' };
     if(id){_data["id"]=id;}
-    modal_component('modal','mensili',_data);
+    modal_component('modal','modal',_data);
 }
 document.addEventListener('DOMContentLoaded',function(){
-    search_table({table:'view_mensili'});
+    search_table({table:'stipendio'});
 });
