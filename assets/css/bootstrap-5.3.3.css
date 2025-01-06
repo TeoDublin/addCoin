@@ -9649,6 +9649,9 @@ z-index: 3 !important;
 }
 
 @media (max-width: 576px) {
+    .sm-menu-vertical.hide{
+        width: 0px!important;
+    }
     .sm-w-100{
         width: 100% !important;
     }
